@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="Can3" sideLength="0.197000"/>
+        <CylinderTarget name="Can2" sideLength="0.197000"/>
+        <CylinderTarget name="Can1" sideLength="0.197000"/>
+        <ImageTarget name="Front_1408X2176" size="0.369000 0.570273"/>
+        <ImageTarget name="Magazine3" size="0.361000 0.456186"/>
+        <ImageTarget name="Magazine2" size="0.361000 0.456186"/>
+        <ImageTarget name="Magazine1" size="0.361000 0.456186"/>
+        <ImageTarget name="Placemat3" size="0.450000 0.356105"/>
+        <ImageTarget name="Placemat2" size="0.450000 0.356105"/>
+        <ImageTarget name="Placemat1" size="0.450000 0.356105"/>
+        <ImageTarget name="Box4.Left" size="0.383794 0.767588"/>
+        <ImageTarget name="Box4.Right" size="0.383794 0.767588"/>
+        <ImageTarget name="Box4.Bottom" size="0.496570 0.383713"/>
+        <ImageTarget name="Box4.Back" size="0.496570 0.767426"/>
+        <ImageTarget name="Box4.Top" size="0.496570 0.383713"/>
+        <ImageTarget name="Box4.Front" size="0.496570 0.767426"/>
+        <ImageTarget name="Box3.Left" size="0.383794 0.767588"/>
+        <ImageTarget name="Box3.Right" size="0.383794 0.767588"/>
+        <ImageTarget name="Box3.Bottom" size="0.496570 0.383713"/>
+        <ImageTarget name="Box3.Back" size="0.496570 0.767426"/>
+        <ImageTarget name="Box3.Top" size="0.496570 0.383713"/>
+        <ImageTarget name="Box3.Front" size="0.496570 0.767426"/>
+        <ImageTarget name="CerealBox2.Left" size="0.090000 0.239766"/>
+        <ImageTarget name="CerealBox2.Right" size="0.090000 0.239766"/>
+        <ImageTarget name="CerealBox2.Bottom" size="0.180000 0.090000"/>
+        <ImageTarget name="CerealBox2.Back" size="0.180000 0.239766"/>
+        <ImageTarget name="CerealBox2.Top" size="0.180000 0.090000"/>
+        <ImageTarget name="CerealBox2.Front" size="0.180000 0.239766"/>
+        <ImageTarget name="CerealBox1.Left" size="0.090000 0.239766"/>
+        <ImageTarget name="CerealBox1.Right" size="0.090000 0.239766"/>
+        <ImageTarget name="CerealBox1.Bottom" size="0.180000 0.090000"/>
+        <ImageTarget name="CerealBox1.Back" size="0.180000 0.239766"/>
+        <ImageTarget name="CerealBox1.Top" size="0.180000 0.090000"/>
+        <ImageTarget name="CerealBox1.Front" size="0.180000 0.239766"/>
+        <MultiTarget name="Box4">
+            <Part name="Box4.Left" translation="-0.24828499555587769 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Box4.Right" translation="0.24828499555587769 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Box4.Front" translation="0 0 0.19189700484275818" rotation="AD: 1 0 0 0"/>
+            <Part name="Box4.Back" translation="0 0 -0.19189700484275818" rotation="AD: 0 1 0 180"/>
+            <Part name="Box4.Top" translation="0 0.38379400968551636 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Box4.Bottom" translation="0 -0.38379400968551636 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Box3">
+            <Part name="Box3.Left" translation="-0.24828499555587769 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Box3.Right" translation="0.24828499555587769 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Box3.Front" translation="0 0 0.19189700484275818" rotation="AD: 1 0 0 0"/>
+            <Part name="Box3.Back" translation="0 0 -0.19189700484275818" rotation="AD: 0 1 0 180"/>
+            <Part name="Box3.Top" translation="0 0.38379400968551636 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Box3.Bottom" translation="0 -0.38379400968551636 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="CerealBox2">
+            <Part name="CerealBox2.Left" translation="-0.09000000357627869 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="CerealBox2.Right" translation="0.09000000357627869 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="CerealBox2.Front" translation="0 0 0.04500000178813934" rotation="AD: 1 0 0 0"/>
+            <Part name="CerealBox2.Back" translation="0 0 -0.04500000178813934" rotation="AD: 0 1 0 180"/>
+            <Part name="CerealBox2.Top" translation="0 0.11999999731779099 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="CerealBox2.Bottom" translation="0 -0.11999999731779099 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="CerealBox1">
+            <Part name="CerealBox1.Left" translation="-0.09000000357627869 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="CerealBox1.Right" translation="0.09000000357627869 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="CerealBox1.Front" translation="0 0 0.04500000178813934" rotation="AD: 1 0 0 0"/>
+            <Part name="CerealBox1.Back" translation="0 0 -0.04500000178813934" rotation="AD: 0 1 0 180"/>
+            <Part name="CerealBox1.Top" translation="0 0.11999999731779099 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="CerealBox1.Bottom" translation="0 -0.11999999731779099 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
